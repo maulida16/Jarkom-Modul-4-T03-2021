@@ -198,3 +198,20 @@ Pembagian IP adalah sebagai berikut
 | A13 | 10.43.0.12 | /30 |
 | A14 | 10.43.0.16 | /30 |
 | A15 | 10.43.0.20 | /30 |
+
+#### Topologi GNS3
+![topologi](https://user-images.githubusercontent.com/73921231/143685696-28c2edb9-6743-4c45-beb9-34123648f1b6.jpg)
+
+#### `route -n`
+
+##### Foosha
+![foosha](https://user-images.githubusercontent.com/73921231/143685755-4cf815fd-3fdc-4b5f-8468-7be2d425fa7b.jpg)
+
+##### Guanhao
+![guanhao](https://user-images.githubusercontent.com/73921231/143685782-080d030d-6afd-477c-adf0-4d987c3713f2.jpg)
+
+##### Oimo
+![oimo](https://user-images.githubusercontent.com/73921231/143685805-df3b03e0-9165-4696-9a89-1c67ac2ebce2.jpg)
+
+##### Water7
+![water7](https://user-images.githubusercontent.com/73921231/143685820-18548ef2-0ddf-4b0d-bbef-b20177eae299.jpg)
