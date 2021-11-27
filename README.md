@@ -128,11 +128,11 @@ Pengaturan Routing dari tiap-tiap router:
 
 - Foosha
 
-![image](https://user-images.githubusercontent.com/73152464/143674765-9639487d-9b45-4bea-97e7-24faaaf8611a.png)
+![image](https://user-images.githubusercontent.com/73152464/143679276-0825f194-f994-4257-b762-48a527763317.png)
 
-![image](https://user-images.githubusercontent.com/73152464/143674784-8489d0b3-c87f-41be-bcf1-586f62c2ea61.png)
+![image](https://user-images.githubusercontent.com/73152464/143679288-5d22b28a-a29e-4000-b86e-f2c419960b36.png)
 
-![image](https://user-images.githubusercontent.com/73152464/143674791-f982f00f-46a2-4f8a-b1f1-d8bfc833b894.png)
+![image](https://user-images.githubusercontent.com/73152464/143679302-dfceb918-a8b5-4483-b065-68a2de146a98.png)
 
 - Guanhao
 
