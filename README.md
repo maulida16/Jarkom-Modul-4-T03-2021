@@ -11,6 +11,34 @@ Keterangan: Bila di CPT menggunakan VLSM, maka di GNS3 menggunakan CIDR atau Seb
 - Pastikan semua NODE pada GNS3 dapat melakukan ping ke its.ac.id
 
 ## VLSM
+
+### Perhitungan VLSM
+![image](https://user-images.githubusercontent.com/61416036/143677577-688734da-54f2-4a0e-b434-cee5dfdc5d05.png)
+Dari topologi pada soal, kami memberikan pengelompokan subnet dan penamaan tiap subnet seperti gambar diatas.
+| Subnet | Jumlah IP | Netmask |
+| --- | --- | --- |
+| A4 | 2021 | /21 |
+| A1 | 1001 | /22 |
+| A2 | 701 | /22 |
+| A7 | 521 | /22 |
+| A8 | 721 | /22 |
+| A12 | 502 | /23 |
+| A9 | 252 | /24 |
+| A3 | 101 | /25 |
+| A11 | 13 | /28 |
+| A5 | 2 | /30 |
+| A6 | 2 | /30 |
+| A10 | 2 | /30 |
+| A13 | 2 | /30 |
+| A14 | 2 | /30 |
+| A15 | 2 | /30 |
+| Total | 5845 | /19 |
+
+Bila dilihat dari tabel, kita akan menggunakan netmask /19 untuk memberikan pengalamatan IP pada 15 subnet.
+
+![image](https://user-images.githubusercontent.com/61416036/143677910-6aea6f5c-f902-4e77-898d-d50b73048ff4.png)
+Sehingga tree yang digunakan adalah sebagai berikut.
+
 Sesuai dengan soal, berikut topologi jaringan di Cisco Packet Tracer
 
 ![image](https://user-images.githubusercontent.com/73152464/143673829-9277abf5-2534-4f87-8eb6-8dcc08a54e81.png)
@@ -143,3 +171,30 @@ Dari Ennieslobby kembali ke Jipangu
 
 
 
+## CIDR
+
+### Perhitungan CIDR
+Dari proses penggabungan didapat subnet terbesar dengan netmask /15.
+![image](https://user-images.githubusercontent.com/61416036/143678008-850f17e2-76f1-429a-9a34-5b7e204222e4.png)
+
+Sehingga tree yang digunakan adalah sebagai berikut.
+![image](https://user-images.githubusercontent.com/61416036/143678137-9ecde6a9-7ce0-4f9d-aaf1-d83496a5758d.png)
+
+Pembagian IP adalah sebagai berikut
+| Subnet | Alamat IP | Netmask |
+| --- | --- | --- |
+| A4 | 10.43.8.0 | /21 |
+| A1 | 10.43.16.0 | /22 |
+| A2 | 10.43.24.0 | /22 |
+| A7 | 10.43.28.0 | /22 |
+| A8 | 10.43.12.0 | /22 |
+| A12 | 10.43.2.0 | /23 |
+| A9 | 10.43.1.0 | /24 |
+| A3 | 10.43.0.128 | /25 |
+| A11 | 10.43.0.48 | /28 |
+| A5 | 10.43.0.0 | /30 |
+| A6 | 10.43.0.4 | /30 |
+| A10 | 10.43.0.8 | /30 |
+| A13 | 10.43.0.12 | /30 |
+| A14 | 10.43.0.16 | /30 |
+| A15 | 10.43.0.20 | /30 |
